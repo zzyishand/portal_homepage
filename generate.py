@@ -34,7 +34,7 @@ HTML_TEMPLATE = """\
 
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0f0f17;
+            background: linear-gradient(135deg, #f0f4ff 0%, #faf5ff 50%, #f0fdf9 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -46,11 +46,11 @@ HTML_TEMPLATE = """\
         body::before {{
             content: '';
             position: fixed;
-            top: -30%;
-            left: -20%;
+            top: -20%;
+            left: -15%;
             width: 600px;
             height: 600px;
-            background: radial-gradient(circle, rgba(108,99,255,0.15) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(108,99,255,0.12) 0%, transparent 70%);
             pointer-events: none;
         }}
         body::after {{
@@ -60,7 +60,7 @@ HTML_TEMPLATE = """\
             right: -10%;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, rgba(17,153,142,0.12) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(17,153,142,0.1) 0%, transparent 70%);
             pointer-events: none;
         }}
 
@@ -77,7 +77,7 @@ HTML_TEMPLATE = """\
             margin-bottom: 56px;
         }}
         .header h1 {{
-            color: #ffffff;
+            color: #1a1a2e;
             font-size: 2.8rem;
             font-weight: 700;
             letter-spacing: -0.5px;
@@ -90,7 +90,7 @@ HTML_TEMPLATE = """\
             background-clip: text;
         }}
         .header p {{
-            color: rgba(255,255,255,0.45);
+            color: rgba(30,30,60,0.5);
             font-size: 1rem;
             letter-spacing: 0.5px;
         }}
@@ -104,18 +104,19 @@ HTML_TEMPLATE = """\
 
         /* 卡片 */
         .link-card {{
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(255,255,255,0.08);
+            background: #ffffff;
+            border: 1px solid rgba(0,0,0,0.07);
             border-radius: 16px;
             padding: 32px 28px;
             text-decoration: none;
-            color: #fff;
+            color: #1a1a2e;
             display: flex;
             flex-direction: column;
             gap: 10px;
             position: relative;
             overflow: hidden;
-            transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
         }}
         /* 顶部彩色高亮条 */
         .link-card::before {{
@@ -144,11 +145,11 @@ HTML_TEMPLATE = """\
         }}
         .link-card:hover {{
             transform: translateY(-6px);
-            border-color: rgba(255,255,255,0.18);
-            background: rgba(255,255,255,0.07);
+            border-color: rgba(108,99,255,0.2);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.1);
         }}
         .link-card:hover::after {{
-            opacity: 0.12;
+            opacity: 0.06;
         }}
 
         .card-icon {{
@@ -158,12 +159,12 @@ HTML_TEMPLATE = """\
         .link-card h2 {{
             font-size: 1.15rem;
             font-weight: 600;
-            color: #fff;
+            color: #1a1a2e;
             margin-top: 4px;
         }}
         .link-card p {{
             font-size: 0.875rem;
-            color: rgba(255,255,255,0.5);
+            color: rgba(30,30,60,0.5);
             line-height: 1.5;
             flex: 1;
         }}
@@ -184,7 +185,7 @@ HTML_TEMPLATE = """\
         .footer {{
             text-align: center;
             margin-top: 56px;
-            color: rgba(255,255,255,0.2);
+            color: rgba(30,30,60,0.3);
             font-size: 0.8rem;
         }}
 
