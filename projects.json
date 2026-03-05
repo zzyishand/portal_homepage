@@ -1,0 +1,27 @@
+{
+  "site_title": "Project Portal",
+  "subtitle": "AI & Finance Tools",
+  "projects": [
+    {
+      "name": "Bubble Indicator",
+      "description": "BRI App — Market bubble analysis tool",
+      "url": "https://briapp-production.up.railway.app/",
+      "color": "#6c63ff",
+      "icon": "📊"
+    },
+    {
+      "name": "CNBC Video Summary",
+      "description": "Video Analysis — AI-powered CNBC video summarizer",
+      "url": "https://cnbc-video-analysis-production.up.railway.app/",
+      "color": "#f64f59",
+      "icon": "🎬"
+    },
+    {
+      "name": "HK Stocks Performance",
+      "description": "Performance Review — HK stock market analysis",
+      "url": "https://performance-review-hk-stocks-production.up.railway.app/",
+      "color": "#11998e",
+      "icon": "📈"
+    }
+  ]
+}
