@@ -17,8 +17,8 @@
       "icon": "🎬"
     },
     {
-      "name": "HK Stocks Performance",
-      "description": "Performance Review — HK stock market analysis",
+      "name": "HK Stocks Publication and Performance",
+      "description": "Review — HK stock market company analysis",
       "url": "https://performance-review-hk-stocks-production.up.railway.app/",
       "color": "#11998e",
       "icon": "📈"
