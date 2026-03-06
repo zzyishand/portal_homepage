@@ -29,6 +29,13 @@
       "url": "https://redoubted-divaricatingly-magnolia.ngrok-free.dev/",
       "color": "#11998e",
       "icon": "📈"
+    },
+    {
+      "name": "US Liquidity Panel",
+      "description": "USD liquidity monitoring — Fed data, reports & alerts",
+      "url": "https://liquidity.fiaiportal.com/",
+      "color": "#1f77b4",
+      "icon": "💵"
     }
   ]
 }
