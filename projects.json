@@ -36,6 +36,13 @@
       "url": "https://liquidity.fiaiportal.com/",
       "color": "#1f77b4",
       "icon": "💵"
+    },
+    {
+      "name": "Crypto Signal",
+      "description": "Crypto Signal — Real-time crypto trend alerts with actionable UI dashboard",
+      "url": "https://crypto-signal-nu.vercel.app/",
+      "color": "#ff9900",
+      "icon": "₿"
     }
   ]
 }
