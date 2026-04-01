@@ -7,7 +7,7 @@
       "description": "BRI App — Market bubble analysis tool",
       "url": "https://briapp-production.up.railway.app/",
       "color": "#6c63ff",
-      "icon": "📊"
+      "icon": "🚨"
     },
     {
       "name": "CNBC Video Summary",
@@ -28,21 +28,21 @@
       "description": "liquidity index for HK stocks",
       "url": "https://redoubted-divaricatingly-magnolia.ngrok-free.dev/",
       "color": "#11998e",
-      "icon": "📈"
+      "icon": "🇭🇰"
     },
     {
       "name": "US Liquidity Panel",
       "description": "USD liquidity monitoring — Fed data, reports & alerts",
       "url": "https://liquidity.fiaiportal.com/",
       "color": "#1f77b4",
-      "icon": "💵"
+      "icon": "🇺🇸"
     },
     {
-      "name": "Crypto Signal",
-      "description": "Crypto Signal — Real-time crypto trend alerts with actionable UI dashboard",
+      "name": "Smart Signal",
+      "description": "Smart Signal — Real-time market trend alerts with UI dashboard",
       "url": "https://crypto-signal-nu.vercel.app/",
       "color": "#ff9900",
-      "icon": "₿"
+      "icon": "📊"
     }
   ]
 }
